@@ -26,7 +26,8 @@ def take_a_number(array, person)
     newarray.push(person)
   counter +=1
  end
+ end
   return newarray
-end
+
  
 end
