@@ -8,7 +8,7 @@ def line(array)
   	counter = 1
 		array.each do |person|
 
-			puts "The line is currently: #{array(person)} #{counter}"
+			puts "The line is currently: #{array} #{counter}"
 counter +=1
     end
 
