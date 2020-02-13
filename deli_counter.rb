@@ -29,7 +29,7 @@ def take_a_number(array, person)
  else
    
  end
-  return line(newarray)
+  return newarray
 
  
 end
