@@ -17,3 +17,9 @@ puts "The line is currently: #{newarray.join(" ")}"
   end
 end
 
+def take_a_number(array, person)
+  newarray = []
+  if array.length >= 1 
+    newarray.push(person)
+  
+end
