@@ -19,9 +19,14 @@ end
 
 def take_a_number(array, person)
   newarray = []
-  if array.length >= 1 
+  if array.length >= 1
+    counter = 1
+    array.each do |person|
+      
     newarray.push(person)
-  
+  counter +=1
+ end
   return newarray
 end
+ 
 end
