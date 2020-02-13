@@ -24,3 +24,4 @@ def take_a_number(array, person)
   
   return newarray
 end
+end
