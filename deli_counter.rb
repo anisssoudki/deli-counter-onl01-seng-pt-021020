@@ -4,7 +4,8 @@ def line(array)
   if array == []
     puts "The line is currently empty."
     
-  else
+  elsif
+  array.length >= 1
   	counter = 1
 		array.each do |person|
 newarray.push("#{counter}. #{person}")
