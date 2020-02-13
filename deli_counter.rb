@@ -23,7 +23,7 @@ def take_a_number(array, person)
     counter = 1
     array.each do |person|
       
-    newarray.push(person)
+    newarray.push(array)
   counter +=1
  end
  else
