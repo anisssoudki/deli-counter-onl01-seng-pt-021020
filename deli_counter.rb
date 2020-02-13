@@ -26,8 +26,10 @@ def take_a_number(array, person)
     newarray.push(person)
   counter +=1
  end
+ else
+   
  end
-  return newarray
+  return line(newarray)
 
  
 end
