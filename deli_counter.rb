@@ -2,21 +2,6 @@
 
 def line(array) 
   if array == []
-    puts "the line is currently empty"
-    
-  else
-phrase = "The line is currently: "
-  	array.each do 
-
-    puts phrase.concat"#{ array.index(i)+1}. #{i} "
-    end
-
-  end
-end
-
-
-def line(array) 
-  if array == []
     puts "The line is currently empty."
     
   else
