@@ -22,4 +22,5 @@ def take_a_number(array, person)
   if array.length >= 1 
     newarray.push(person)
   
+  return newarray
 end
