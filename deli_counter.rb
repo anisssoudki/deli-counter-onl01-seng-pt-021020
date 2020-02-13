@@ -34,5 +34,5 @@ def now_serving(array)
   end
 end
 
-puts now_serving(katz_deli)
-puts katz_deli
+puts now_serving(array)
+puts array
