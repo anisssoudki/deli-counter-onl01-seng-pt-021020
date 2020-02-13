@@ -11,7 +11,7 @@ newarray.push("#{counter}. #{person}")
 		
 counter +=1
     end
-puts "The line is currently: #{array} #{counter}"
+puts "The line is currently: #{newarray.join(" ")}"
   end
 end
 
