@@ -6,6 +6,7 @@ def line(array)
     
   elsif
   array.length >= 1
+  newarray = []
   	counter = 1
 		array.each do |person|
 newarray.push("#{counter}. #{person}")
