@@ -25,12 +25,12 @@ end
 
 take_a_number(katz_deli, "Fyvish")
 
-def now_serving(line)
-  if line.length == 0 
+def now_serving(array)
+  if array.length == 0 
     puts"There is nobody waiting to be served!"
   else
     puts "Currently serving #{line[0]}." 
-    line.shift 
+    array.shift 
   end
 end
 
