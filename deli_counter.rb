@@ -7,11 +7,11 @@ def line(array)
   else
   	counter = 1
 		array.each do |person|
-
-			puts "The line is currently: #{array} #{counter}"
+newarray.push("#{counter}. #{person}")
+		
 counter +=1
     end
-
+puts "The line is currently: #{array} #{counter}"
   end
 end
 
