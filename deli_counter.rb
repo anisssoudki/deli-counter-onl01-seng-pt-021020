@@ -18,7 +18,7 @@ puts "The line is currently: #{newarray.join(" ")}"
 end
 
 def take_a_number(array, person)
-  
+  newarray = []
   if array.length >= 0
     counter = 1
     array.each do |person|
