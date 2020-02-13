@@ -23,7 +23,7 @@ def take_a_number(array, person)
  
 end
 
-take_a_number(katz_deli, "Fyvish")
+
 
 def now_serving(array)
   if array.length == 0 
