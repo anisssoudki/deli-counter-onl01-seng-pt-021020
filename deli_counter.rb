@@ -18,7 +18,7 @@ puts "The line is currently: #{newarray.join(" ")}"
 end
 
 def take_a_number(array, person)
- array.push(new_person)
+ array.push(person)
  puts "Welcome, #{person}. You are number #{line.length} in line"
  
 end
